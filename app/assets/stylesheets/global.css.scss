@@ -1,6 +1,6 @@
-$dark_gray: #2B2E2E;
+$dark_gray: #d3d3d3;
 $light_gray: #C0C1C1;
-$green: #33CD99;
+$green: #ffa500;
 
 @mixin bold_font {
   font-family: "Brandon Grotesque","Helvetica Neue", Helvetica, sans-serif;
@@ -82,7 +82,7 @@ header {
       float: right;
       a {
         text-decoration: none;
-        color: white;
+        color: black;
         font-size: 1.1rem;
         line-height: 1.5;
         margin-left: 1rem;
@@ -98,7 +98,7 @@ footer {
   background: $dark_gray;
   width: 100%;
   padding: 2rem 0;
-  color: white;
+  color: black;
   text-align: center;
   @include bold_font;
   p {
